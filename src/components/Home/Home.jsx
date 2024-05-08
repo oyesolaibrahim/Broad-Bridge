@@ -13,8 +13,8 @@ const Home = () => {
             <main className="bg-gray-500 pb-16">
                <FirstSection/>
                <SecondSection/>
-             {/*  <ThirdSection/>
-    */}           <FourthSection/>
+               <FourthSection/>
+             {/*  <ThirdSection/>*/}
                 </main>
             <Footer/>
         </>
