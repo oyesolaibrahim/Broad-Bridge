@@ -31,8 +31,7 @@ const Header = () => {
                 <h1 className="md:font-extrabold text-3xl overflow-hidden sm:w-36 sm:text-2xl">Broad Bridge</h1>
             </div>
             <div className="">
-                 <div className="md:flex md:flex-row md:right-10 md:space-x-3 md:items-center backdrop md:space-y-0 md:pl-0 md:w-full md:h-1/5 md:static sm:items-start sm:space-y-8 sm:pl-5 sm:fixed sm:-right-3/4 sm:top-0 sm:h-screen sm:w-3/5 sm:flex-col sm:transition-all sm:duration-1000 sm:z-20" id={`${menuOpen && "slide"}`}>
-                 {/*sm:flex-col sm:space-y-3 sm:justify-start sm:items-start */}
+                 <div className="md:flex md:flex-row md:right-10 md:space-x-3 md:items-center md:bg-transparent sm:bg-gray-500 md:space-y-0 md:pl-0 md:w-full md:h-1/5 md:static sm:items-start sm:space-y-8 sm:pl-5 sm:fixed sm:-right-3/4 sm:top-0 sm:h-screen sm:w-3/5 sm:flex-col sm:transition-all sm:duration-1000 sm:z-50" id={`${menuOpen && "slide"}`}>
                      <div className="md:flex md:mt-0 md:flex-row md:items-center md:space-x-1 sm:mt-24">
                          <Link to="/">
                              <h3 className="cursor-pointer font-bold hover: rounded-lg py-5 px-2">Home</h3>
